@@ -19,28 +19,28 @@
     <meta property="og:type" content="article">
     <meta property="og:title" content="使用 axios 访问 API — Vue.js">
     <meta property="og:description" content="Vue.js - The Progressive JavaScript Framework">
-    <meta property="og:image" content="https://cn.vuejs.org//rock/medivh/images/logo.png">
+    <meta property="og:image" content="https://cn.vuejs.org//rock/medivh-doc/images/logo.png">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="使用 axios 访问 API — Vue.js">
     <meta name="twitter:description" content="Vue.js - The Progressive JavaScript Framework">
     <meta name="twitter:image" content="https://cn.vuejs.org/images/logo.png">
 
-    <link rel="apple-touch-icon" sizes="57x57" href="/rock/medivh/images/icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/rock/medivh/images/icons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/rock/medivh/images/icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/rock/medivh/images/icons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/rock/medivh/images/icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/rock/medivh/images/icons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/rock/medivh/images/icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/rock/medivh/images/icons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/rock/medivh/images/icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/rock/medivh/images/icons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/rock/medivh/images/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/rock/medivh/images/icons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/rock/medivh/images/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/rock/medivh-doc/images/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/rock/medivh-doc/images/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/rock/medivh-doc/images/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/rock/medivh-doc/images/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/rock/medivh-doc/images/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/rock/medivh-doc/images/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/rock/medivh-doc/images/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/rock/medivh-doc/images/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/rock/medivh-doc/images/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/rock/medivh-doc/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/rock/medivh-doc/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/rock/medivh-doc/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/rock/medivh-doc/images/icons/favicon-16x16.png">
     <meta name="msapplication-TileImage" content="/images/icons/ms-icon-144x144.png">
-    <link rel="icon" href="/rock/medivh/images/logo.png" type="image/png">
+    <link rel="icon" href="/rock/medivh-doc/images/logo.png" type="image/png">
 
     <meta name="msapplication-TileColor" content="#4fc08d">
     <meta name="theme-color" content="#4fc08d">
@@ -51,13 +51,13 @@
     <!-- <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Roboto Mono' rel='stylesheet' type='text/css'> -->
     <!-- <link href='//fonts.googleapis.com/css?family=Dosis:500&text=Vue.js' rel='stylesheet' type='text/css'> -->
 
-    <link href="/rock/medivh/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="/rock/medivh-doc/css/font-awesome.css" rel="stylesheet" type="text/css">
 
     <!-- main page styles -->
-    <link rel="stylesheet" href="/rock/medivh/css/page.css">
+    <link rel="stylesheet" href="/rock/medivh-doc/css/page.css">
 
     <!-- this needs to be loaded before guide's inline scripts -->
-    <script src="/rock/medivh/js/vue.js"></script>
+    <script src="/rock/medivh-doc/js/vue.js"></script>
     <script>
       Vue.config.productionTip = false
       window.PAGE_TYPE = "cookbook"
@@ -70,8 +70,8 @@
       <a class="logo" href="/"></a>
     </div>
     <div id="header">
-  <a id="logo" href="/rock/medivh/">
-    <img src="/rock/medivh/images/logo.png" alt="vue logo">
+  <a id="logo" href="/rock/medivh-doc/">
+    <img src="/rock/medivh-doc/images/logo.png" alt="vue logo">
     <span>Medivh</span>
   </a>
   <ul id="nav">
@@ -84,11 +84,11 @@
   <a class="nav-link current">学习</a><span class="arrow"></span>
   <ul class="nav-dropdown">
     <li><ul>
-      <li><a href="/rock/medivh/v0.x/guide/" class="nav-link">教程</a></li>
-      <li><a href="/rock/medivh/v2/api/" class="nav-link">API</a></li>
-      <li><a href="/rock/medivh/v2/style-guide/" class="nav-link">风格指南</a></li>
-      <li><a href="/rock/medivh/v2/examples/" class="nav-link">示例</a></li>
-      <li><a href="/rock/medivh/v2/cookbook/" class="nav-link current">Cookbook</a></li>
+      <li><a href="/rock/medivh-doc/v0.x/guide/" class="nav-link">教程</a></li>
+      <li><a href="/rock/medivh-doc/v2/api/" class="nav-link">API</a></li>
+      <li><a href="/rock/medivh-doc/v2/style-guide/" class="nav-link">风格指南</a></li>
+      <li><a href="/rock/medivh-doc/v2/examples/" class="nav-link">示例</a></li>
+      <li><a href="/rock/medivh-doc/v2/cookbook/" class="nav-link current">Cookbook</a></li>
     </ul></li>
   </ul>
 </li>
@@ -134,7 +134,7 @@
 </li>
 
 <li>
-  <a href="/rock/medivh/v2/guide/team.html" class="nav-link team">团队</a>
+  <a href="/rock/medivh-doc/v2/guide/team.html" class="nav-link team">团队</a>
 </li>
 <li class="nav-dropdown-container support-vue">
   <a href="/support-vuejs/" class="nav-link">支持 Vue</a><span class="arrow"></span>
@@ -182,11 +182,11 @@
   <a class="nav-link current">学习</a><span class="arrow"></span>
   <ul class="nav-dropdown">
     <li><ul>
-      <li><a href="/rock/medivh/v0.x/guide/" class="nav-link">教程</a></li>
-      <li><a href="/rock/medivh/v2/api/" class="nav-link">API</a></li>
-      <li><a href="/rock/medivh/v2/style-guide/" class="nav-link">风格指南</a></li>
-      <li><a href="/rock/medivh/v2/examples/" class="nav-link">示例</a></li>
-      <li><a href="/rock/medivh/v2/cookbook/" class="nav-link current">Cookbook</a></li>
+      <li><a href="/rock/medivh-doc/v0.x/guide/" class="nav-link">教程</a></li>
+      <li><a href="/rock/medivh-doc/v2/api/" class="nav-link">API</a></li>
+      <li><a href="/rock/medivh-doc/v2/style-guide/" class="nav-link">风格指南</a></li>
+      <li><a href="/rock/medivh-doc/v2/examples/" class="nav-link">示例</a></li>
+      <li><a href="/rock/medivh-doc/v2/cookbook/" class="nav-link current">Cookbook</a></li>
     </ul></li>
   </ul>
 </li>
@@ -232,7 +232,7 @@
 </li>
 
 <li>
-  <a href="/rock/medivh/v2/guide/team.html" class="nav-link team">团队</a>
+  <a href="/rock/medivh-doc/v2/guide/team.html" class="nav-link team">团队</a>
 </li>
 <li class="nav-dropdown-container support-vue">
   <a href="/support-vuejs/" class="nav-link">支持 Vue</a><span class="arrow"></span>
@@ -274,79 +274,79 @@
     
     
     <li>
-      <a href="/rock/medivh/v2/cookbook/index.html" class="sidebar-link">介绍</a>
+      <a href="/rock/medivh-doc/v2/cookbook/index.html" class="sidebar-link">介绍</a>
     </li>
   
     
     
     <li>
-      <a href="/rock/medivh/v2/cookbook/adding-instance-properties.html" class="sidebar-link">添加实例属性</a>
+      <a href="/rock/medivh-doc/v2/cookbook/adding-instance-properties.html" class="sidebar-link">添加实例属性</a>
     </li>
   
     
     
     <li>
-      <a href="/rock/medivh/v2/cookbook/form-validation.html" class="sidebar-link">表单校验</a>
+      <a href="/rock/medivh-doc/v2/cookbook/form-validation.html" class="sidebar-link">表单校验</a>
     </li>
   
     
     
     <li>
-      <a href="/rock/medivh/v2/cookbook/editable-svg-icons.html" class="sidebar-link">可编辑的 SVG 图标系统</a>
+      <a href="/rock/medivh-doc/v2/cookbook/editable-svg-icons.html" class="sidebar-link">可编辑的 SVG 图标系统</a>
     </li>
   
     
     
     <li>
-      <a href="/rock/medivh/v2/cookbook/serverless-blog.html" class="sidebar-link">创建一个基于 CMS 的博客</a>
+      <a href="/rock/medivh-doc/v2/cookbook/serverless-blog.html" class="sidebar-link">创建一个基于 CMS 的博客</a>
     </li>
   
     
     
     <li>
-      <a href="/rock/medivh/v2/cookbook/unit-testing-vue-components.html" class="sidebar-link">Vue 组件的单元测试</a>
+      <a href="/rock/medivh-doc/v2/cookbook/unit-testing-vue-components.html" class="sidebar-link">Vue 组件的单元测试</a>
     </li>
   
     
     
     <li>
-      <a href="/rock/medivh/v2/cookbook/creating-custom-scroll-directives.html" class="sidebar-link">创建自定义滚动指令</a>
+      <a href="/rock/medivh-doc/v2/cookbook/creating-custom-scroll-directives.html" class="sidebar-link">创建自定义滚动指令</a>
     </li>
   
     
     
     <li>
-      <a href="/rock/medivh/v2/cookbook/debugging-in-vscode.html" class="sidebar-link">在 VS Code 和 Chrome 中调试</a>
+      <a href="/rock/medivh-doc/v2/cookbook/debugging-in-vscode.html" class="sidebar-link">在 VS Code 和 Chrome 中调试</a>
     </li>
   
     
     
     <li>
-      <a href="/rock/medivh/v2/cookbook/using-axios-to-consume-apis.html" class="sidebar-link current">使用 axios 访问 API</a>
+      <a href="/rock/medivh-doc/v2/cookbook/using-axios-to-consume-apis.html" class="sidebar-link current">使用 axios 访问 API</a>
     </li>
   
     
     
     <li>
-      <a href="/rock/medivh/v2/cookbook/avoiding-memory-leaks.html" class="sidebar-link">避免内存泄漏</a>
+      <a href="/rock/medivh-doc/v2/cookbook/avoiding-memory-leaks.html" class="sidebar-link">避免内存泄漏</a>
     </li>
   
     
     
     <li>
-      <a href="/rock/medivh/v2/cookbook/client-side-storage.html" class="sidebar-link">Client-Side Storage</a>
+      <a href="/rock/medivh-doc/v2/cookbook/client-side-storage.html" class="sidebar-link">Client-Side Storage</a>
     </li>
   
     
     
     <li>
-      <a href="/rock/medivh/v2/cookbook/packaging-sfc-for-npm.html" class="sidebar-link">Packaging Vue Components for npm</a>
+      <a href="/rock/medivh-doc/v2/cookbook/packaging-sfc-for-npm.html" class="sidebar-link">Packaging Vue Components for npm</a>
     </li>
   
     
     
     <li>
-      <a href="/rock/medivh/v2/cookbook/dockerize-vuejs-app.html" class="sidebar-link">Dockerize Vue.js App</a>
+      <a href="/rock/medivh-doc/v2/cookbook/dockerize-vuejs-app.html" class="sidebar-link">Dockerize Vue.js App</a>
     </li>
   
 </ul>
@@ -362,23 +362,23 @@
     <span>白金赞助商</span>
     <div>
     <a href="https://www.bitsrc.io/?utm_source=vue&utm_medium=vue&utm_campaign=vue&utm_term=vue&utm_content=vue" target="_blank" class="logo">
-      <img src="/rock/medivh/images/bit-wide.png" alt="">
+      <img src="/rock/medivh-doc/images/bit-wide.png" alt="">
     </a>
     <a href="http://tooltwist.com/" target="_blank" class="logo">
-      <img src="/rock/medivh/images/tooltwist.png" alt="tooltwist">
+      <img src="/rock/medivh-doc/images/tooltwist.png" alt="tooltwist">
     </a>
     <a href="https://vueschool.io/?utm_source=Vuejs.org&utm_medium=Banner&utm_campaign=Sponsored%20Banner&utm_content=V1" target="_blank" class="logo">
-      <img src="/rock/medivh/images/vueschool.png" alt="vue school">
+      <img src="/rock/medivh-doc/images/vueschool.png" alt="vue school">
     </a>
     <a href="https://vehikl.com/" target="_blank" class="logo">
-      <img src="/rock/medivh/images/vehikl.png" alt="vehikl">
+      <img src="/rock/medivh-doc/images/vehikl.png" alt="vehikl">
     </a>
     <a href="https://www.nativescript.org/vue?utm_source=vue-js-org&utm_medium=website&utm_campaign=nativescript-awareness" target="_blank" class="logo">
-      <img src="/rock/medivh/images/nativescript.png" alt="nativescript">
+      <img src="/rock/medivh-doc/images/nativescript.png" alt="nativescript">
     </a>
     </div>
   </div>
-  <a class="become-backer" href="/rock/medivh/support-vuejs">
+  <a class="become-backer" href="/rock/medivh-doc/support-vuejs">
     成为赞助者
   </a>
 </div>
@@ -461,16 +461,16 @@
 
         
       </div>
-      <script src="/rock/medivh/js/smooth-scroll.min.js"></script>
+      <script src="/rock/medivh-doc/js/smooth-scroll.min.js"></script>
     
 
     <!-- main custom script for sidebars, version selects etc. -->
-    <script src="/rock/medivh/js/css.escape.js"></script>
-    <script src="/rock/medivh/js/common.js"></script>
+    <script src="/rock/medivh-doc/js/css.escape.js"></script>
+    <script src="/rock/medivh-doc/js/common.js"></script>
 
     <!-- search -->
     <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/rock/medivh/css/search.css">
+    <link rel="stylesheet" href="/rock/medivh-doc/css/search.css">
     <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
     <script>
     [
